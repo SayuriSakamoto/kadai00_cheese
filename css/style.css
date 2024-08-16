@@ -1,0 +1,308 @@
+
+/* ここから下に記載していく */
+.wrap {
+    width: 1200px;
+    font-family: "メイリオ" "seigo UI";
+    }
+
+
+    #header {
+        background-color: white;
+        font-size: 21px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header_menu {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .menu {
+        font-size: 21px;
+        color: #222222;
+        padding: 50px 25px 50px 25px;
+    }
+    
+    .menu:hover {
+        background-color: #FFE77F;
+    }
+    
+    a.no-color-change {
+        color: #222222;
+        text-decoration: none;
+    }
+ 
+  /* 画像系の設定 */
+
+  .header-image {
+    padding: 20px;
+  }
+  
+.about_images {
+    padding-top: 40px;
+}
+
+/* テキスト系の設定 */
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    gap: 50px;
+    font-size: 21px;
+  }
+
+  .mainvisual {
+    position: relative;
+  }
+img {
+    width: 100%;
+}
+
+.mainvisual p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .mainvisual .main-lead {
+    font-size: 48px;
+    color: white;
+    top: 190px;
+    white-space: nowrap;
+  }
+
+  .mainvisual .sub-lead {
+    font-size: 32px;
+    color: white;
+    top: 268px;
+    white-space: nowrap;
+  }
+
+  .en-title {
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .jp-title {
+    font-size: 18px;
+    padding-bottom: 60px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .space {
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 40px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .course-explain {
+    background-color: #fafafa;
+   }
+
+   /* Course 1 */
+  .explain-1 {
+    display: flex;
+  }
+ .explain-1-child {
+    width: 100%;
+ }
+ .explain-1-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+ }
+ .explain-1-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 120px;
+ }
+
+ /* Course 2 */
+ .explain-2 {
+    display: flex;
+  }
+ .explain-2-child {
+    width: 100%;
+ }
+ .explain-2-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+ }
+ .explain-2-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 120px;
+ }
+
+ /* Course 3 */
+ .explain-3 {
+    display: flex;
+  }
+ .explain-3-child {
+    width: 100%;
+ }
+ .explain-3-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+ }
+ .explain-3-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 120px;
+ }
+
+ /* NEWS */
+ .news-f-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap; 
+    justify-content: center;
+ }
+ .news-f-item {
+    width: 300px;
+    margin: 0px 15px 30px 15px
+ }
+.news-f-item-text {
+    font-size: 14px;
+    margin: 0px 0px 24px 0px;
+    white-space: nowrap;
+}
+
+ /* ボタン */
+  .more {
+    display: grid;
+	align-content: center;
+	justify-content: center; 
+        background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 21px;
+    margin: 36px 450px 60px 450px;
+}
+
+  .access {
+    background-color: #fafafa;
+    padding-bottom: 30px;
+  }
+  
+  
+  .iframe {
+    padding-bottom: 60px;
+  }
+
+  .access-items{
+    padding-bottom: 30px;
+    text-align: left;
+  }
+
+ /* フォームの調整 */
+.form {
+    box-sizing: border-box;
+    color: #333;
+    width: 720px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.form-table {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-item,
+.form-body {
+    padding: 20px;
+    border: 1px solod #ccc;
+}
+
+.form-item {
+    text-align: left;
+    width: 30%;
+    background-color: #eee;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form-body {
+    width: 70%;
+}
+.form-text {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    max-width: 400px;
+}
+
+.form-select {
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.form-douki {
+    display: block;
+}
+
+.form-douki-txt {
+    margin-left: 5px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.form-textara {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.form-submit {
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    background-color:#ffd61a;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+.form-submit:hover {
+    transform: scale(1.1);
+}
+  #footer {
+    padding: 10px;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+  }
+
+  
